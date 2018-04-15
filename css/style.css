@@ -16,11 +16,15 @@ body {
 	font-weight: 300;
     color: #666;
     background-color: #fff;
+
+    overflow-x: hidden;
 }
 
 html {
     width: 100%;
     height: 100%;
+
+    overflow-x: hidden;
 }
 
 h1,
@@ -316,7 +320,7 @@ hr {
 }
 
 #intro.intro {
-	padding:9% 0 0 0;
+	padding:9% 0 5% 0;
 }
 
 .intro .slogan {
@@ -362,14 +366,14 @@ hr {
     padding: 15px 25px 10px 25px;
     border-radius: 10px;
 
-    width:65%;
+    width:90%;
     margin: auto;
 
     color: black;
 }
 
 .introduction-text p {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 @media (max-width: 768px) {
@@ -394,6 +398,12 @@ hr {
 
 .references-text p {
     font-size: 18px;
+}
+
+.references-text p a {
+    word-wrap: break-word;
+    width: 100%;
+    display: block;
 }
 
 /* ===========================
@@ -421,54 +431,6 @@ hr {
     margin: auto;
 }
 
-.team-social {
-	margin-left: 0;
-	padding-left: 0;
-
-}
-
-.team-social {
-	text-align: center;
-}
-
-.team-social li{
-    display: inline-block;
-	margin:0 !important;
-	padding:0;
-}
-
-
-.team-social a{
-	margin:0;
-	padding:0;
-    display: block;
-	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
-	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-.team-social a i{
-	text-align: center;
-	margin:0;
-	padding:0;
-}
-.team-social .social-facebook a{background: #3873ae;}
-.team-social .social-twitter a{background: #62c6f8;}
-.team-social .social-dribble a{background: #d74980;}
-.team-social .social-deviantart a{background: #8da356;}
-.team-social .social-google a{background: #000;}
-.team-social .social-vimeo a{background: #51a6d3;}
-.team-social .social-facebook a:hover{background: #4893ce;}
-.team-social .social-twitter a:hover{background: #82e6ff;}
-.team-social .social-dribble a:hover{background: #f769a0;}
-.team-social .social-deviantart a:hover{background: #adc376;}
-.team-social .social-google a:hover{background: #333;}
-.team-social .social-vimeo a:hover{background: #71c6f3;}
-
 
 /* ===========================
 --- Services
@@ -478,127 +440,16 @@ hr {
 	margin-bottom: 20px;
 }
 
-
-
-/* ===========================
---- Contact
-============================ */
-
-form#contact-form .form-group label {
-	text-align: left !important;
-	display: block;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 12px;
-}
-form#contact-form input,form#contact-form select,form#contact-form textarea {
-	border-radius: 0;
-	border: 1px solid #eee;
-  -webkit-box-shadow: none;
-          box-shadow:  none;
-}
-
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-}
-.input-group-addon {
-  background-color: #fefefe;
-  border: 1px solid #eee;
-  border-radius: 0;
-}
-
-.widget-contact {
-	text-align: left;
-}
-
-.validation {
-    color: red;
-    display:none;
-    margin: 0 0 20px;
-    font-weight:400;
-    font-size:13px;
-}
-
-#sendmessage {
-    color: green;
-    border:1px solid green;
-    display:none;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#errormessage {
-    color: red;
-    display:none;
-    border:1px solid red;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-	display:block;
-}
-
-.company-social {
-	margin-left: 0;
-	padding-left: 0;
-	margin-top: 10px;
-}
-
-.company-social {
-	text-align: left;
-}
-
-.company-social li{
-    display: inline-block;
-	margin:0 !important;
-	padding:0;
-}
-
-
-.company-social a{
-	margin:0;
-	padding:0;
-    display: block;
-	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
-	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-.company-social a i{
-	text-align: center;
-	margin:0;
-	padding:0;
-}
-.company-social .social-facebook a{background: #3873ae;}
-.company-social .social-twitter a{background: #62c6f8;}
-.company-social .social-dribble a{background: #d74980;}
-.company-social .social-deviantart a{background: #8da356;}
-.company-social .social-google a{background: #000;}
-.company-social .social-vimeo a{background: #51a6d3;}
-.company-social .social-facebook a:hover{background: #4893ce;}
-.company-social .social-twitter a:hover{background: #82e6ff;}
-.company-social .social-dribble a:hover{background: #f769a0;}
-.company-social .social-deviantart a:hover{background: #adc376;}
-.company-social .social-google a:hover{background: #333;}
-.company-social .social-vimeo a:hover{background: #71c6f3;}
-
-
 /* ===========================
 --- CONTRIBUTORS
 ============================ */
 
 .inner p {
     font-size: 18px;
+}
+
+.section-heading {
+    visibility: visible;
 }
 
 /* ===========================
@@ -618,6 +469,61 @@ footer p {
 .credits, .credits a {
     color: #fff;
 }
+
+.company-social {
+    margin: auto;
+}
+
+.page-scroll-wrapper {
+    visibility: visible !important;
+}
+
+.company-social {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.company-social li{
+    display: inline-block;
+    margin:0 !important;
+    padding:0;
+}
+
+
+.company-social a{
+    margin:0;
+    padding:0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #3bbec0;
+    color: #fff;
+    -webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.company-social a i{
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+.company-social .social-facebook a{background: #3873ae;}
+.company-social .social-twitter a{background: #62c6f8;}
+.company-social .social-email a{background: #d74980;}
+.company-social .social-link a{background: #D00000;}
+.company-social .social-deviantart a{background: #8da356;}
+.company-social .social-google a{background: #000;}
+.company-social .social-vimeo a{background: #51a6d3;}
+.company-social .social-facebook a:hover{background: #4893ce;}
+.company-social .social-twitter a:hover{background: #82e6ff;}
+.company-social .social-email a:hover{background: #f769a0;}
+.company-social .social-link a:hover{background: #E70522;}
+.company-social .social-deviantart a:hover{background: #adc376;}
+.company-social .social-google a:hover{background: #333;}
+.company-social .social-vimeo a:hover{background: #71c6f3;}
+
 
 /* ==========================
 Parallax
@@ -806,7 +712,7 @@ Parallax
 
 /* Media queries */
 
-@media(min-width:767px) {
+@media(min-width:768px) {
 
     .navbar {
         padding: 20px 0;
@@ -840,9 +746,20 @@ Parallax
     .intro-text {
         font-size: 25px;
     }
-
-
 }
+
+@media (max-width:1200px) {
+    .introduction-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:875px) {
+    .introduction-text p {
+        font-size: 15px;
+    }
+}
+
 @media (max-width:768px) {
 
 	.team.boxed-grey {
@@ -853,7 +770,21 @@ Parallax
 		margin-bottom: 30px;
 	}
 
+    #intro.intro {
+        padding:13% 0 6% 0;
+    }
 
+    .introduction-text p {
+        font-size: 20px;
+    }
+
+    .home-section {
+        padding-bottom: 0px;
+    }
+
+    .page-scroll-wrapper {
+        visibility: visible !important;
+    }
 }
 
 @media (max-width:480px) {

@@ -6,7 +6,7 @@ a,.tp-caption a.btn:hover {
 	background: #D00000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .navbar, .navbar-nav {
 		background: #D00000 !important;
 	}
