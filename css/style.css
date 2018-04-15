@@ -310,13 +310,13 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../img/bg1.jpg) no-repeat top center;
+	background: url(../img/internet-web.jpg) no-repeat top center;
     background-size: cover;
     height: auto;
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:9% 0 0 0;
 }
 
 .intro .slogan {
@@ -357,6 +357,21 @@ hr {
 	text-shadow: -1px 1px 1px #000;
 }
 
+.introduction-text {
+    background-color: rgb(224, 224, 224);
+    padding: 15px 25px 10px 25px;
+    border-radius: 10px;
+
+    width:65%;
+    margin: auto;
+
+    color: black;
+}
+
+.introduction-text p {
+    font-size: 18px;
+}
+
 @media (max-width: 768px) {
   .intro .slogan h2 {
     font-size: 48px;
@@ -369,6 +384,17 @@ hr {
   }
 }
 
+/* ===========================
+--- REFERENCES
+============================ */
+
+.references-text {
+    text-align: left;
+}
+
+.references-text p {
+    font-size: 18px;
+}
 
 /* ===========================
 --- About
@@ -389,6 +415,10 @@ hr {
 
 .avatar {
 	margin-bottom: 20px;
+}
+
+.avatar > img {
+    margin: auto;
 }
 
 .team-social {
@@ -563,6 +593,13 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .company-social .social-vimeo a:hover{background: #71c6f3;}
 
 
+/* ===========================
+--- CONTRIBUTORS
+============================ */
+
+.inner p {
+    font-size: 18px;
+}
 
 /* ===========================
 --- Footer
