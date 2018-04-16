@@ -792,6 +792,14 @@ Parallax
 }
 
 @media (max-width:480px) {
+    /* better scrolling experience on mobile */
+    html {
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        -moz-overflow-scrolling: touch;
+        -o-overflow-scrolling: touch;
+        -ms-overflow-scrolling: touch;
+    }
 
     .navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
