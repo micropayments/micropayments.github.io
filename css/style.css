@@ -18,6 +18,11 @@ body {
     background-color: #fff;
 
     overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
 }
 
 html {
@@ -25,6 +30,11 @@ html {
     height: 100%;
 
     overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
 }
 
 h1,
@@ -366,7 +376,7 @@ hr {
     padding: 15px 25px 10px 25px;
     border-radius: 10px;
 
-    width:90%;
+    width:  90%;
     margin: auto;
 
     color: black;
@@ -792,14 +802,6 @@ Parallax
 }
 
 @media (max-width:480px) {
-    /* better scrolling experience on mobile */
-    html {
-        overflow-y: scroll;
-        -webkit-overflow-scrolling: touch;
-        -moz-overflow-scrolling: touch;
-        -o-overflow-scrolling: touch;
-        -ms-overflow-scrolling: touch;
-    }
 
     .navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
