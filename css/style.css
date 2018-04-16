@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Lato',sans-serif;
-	font-weight: 300;
+    font-weight: 300;
     color: #666;
     background-color: #fff;
 
@@ -47,7 +47,7 @@ p {
 }
 
 p.lead {
-	font-weight: 600;
+    font-weight: 600;
 }
 
 a {
@@ -84,7 +84,7 @@ a:focus {
 }
 
 .navbar-brand h1{
-	color: #fff;
+    color: #fff;
   font-size: 20px;
   line-height: 40px;
 }
@@ -102,43 +102,43 @@ a:focus {
 }
 
 .navbar-custom ul.nav li a {
-	font-size: 12px;
-	letter-spacing: 1px;
+    font-size: 12px;
+    letter-spacing: 1px;
     color: #444;
-	text-transform: uppercase;
-	font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+    color: #fff;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
-	  border-radius: 0;
+      border-radius: 0;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li {
-	border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
 
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li:last-child{
-	border-bottom: none;
+    border-bottom: none;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a {
-	padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	background: #fefefe;
+    background: #fefefe;
 }
 
 .navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
-	color: #666;
+    color: #666;
 }
 
 .navbar-custom .nav li a {
@@ -234,7 +234,7 @@ a:focus {
 }
 
 #load {
-	z-index: 9999;
+    z-index: 9999;
   background-color: #FF4136;
   opacity: 0.75;
   width: 10px;
@@ -270,39 +270,39 @@ hr {
 .home-section {
     padding-top: 110px;
     padding-bottom: 110px;
-	display:block;
+    display:block;
     position:relative;
     z-index:120;
 }
 
 
 .section-heading h2 {
-	font-size: 40px;
+    font-size: 40px;
 }
 .section-heading i {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
 /* --- section bg var --- */
 
 .bg-white {
-	background: #fff;
+    background: #fff;
 }
 
 .bg-gray {
-	background: #f8f8f8;
+    background: #f8f8f8;
 }
 
 
 .bg-dark {
-	background: #575757;
+    background: #575757;
 }
 
 /* --- section color var --- */
 
 .text-light {
-	color: #fff;
+    color: #fff;
 }
 
 
@@ -312,24 +312,24 @@ hr {
 ============================ */
 
 .intro {
-	width:100%;
-	position:relative;
-	background: url(../img/internet-web.jpg) no-repeat top center;
+    width:100%;
+    position:relative;
+    background: url(../img/internet-web.jpg) no-repeat top center;
     background-size: cover;
     height: auto;
 }
 
 #intro.intro {
-	padding:9% 0 5% 0;
+    padding:9% 0 5% 0;
 }
 
 .intro .slogan {
-	text-align: center;
+    text-align: center;
 
 }
 
 .intro .page-scroll {
-	text-align: center;
+    text-align: center;
 }
 
 .brand-heading {
@@ -341,24 +341,24 @@ hr {
 }
 
 .intro .slogan h2 {
-	color: #FFF;
-	text-shadow: none;
-	font-size: 60px;
-	line-height: 60px;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-	text-shadow: -1px 0 1px #000;
+    color: #FFF;
+    text-shadow: none;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 1px #000;
 }
 
 .intro .slogan h4 {
-	color: #fff;
-	text-shadow: -1px 1px 1px #000;
+    color: #fff;
+    text-shadow: -1px 1px 1px #000;
 }
 
 .introduction-text {
@@ -411,20 +411,20 @@ hr {
 ============================ */
 
 .boxed-grey {
-	background: #f9f9f9;
-	padding: 20px;
+    background: #f9f9f9;
+    padding: 20px;
 }
 
 .team h5 {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .team p.subtitle {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .avatar {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .avatar > img {
@@ -437,7 +437,7 @@ hr {
 ============================ */
 
 .service-icon {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /* ===========================
@@ -457,13 +457,13 @@ hr {
 ============================ */
 
 footer {
-	text-align: center;
-	padding: 50px 0 ;
+    text-align: center;
+    padding: 50px 0 ;
 
 }
 
 footer p {
-	color: #f8f8f8;
+    color: #f8f8f8;
 }
 
 .credits, .credits a {
@@ -514,14 +514,14 @@ footer p {
 .company-social .social-email a{background: #d74980;}
 .company-social .social-link a{background: #D00000;}
 .company-social .social-deviantart a{background: #8da356;}
-.company-social .social-google a{background: #000;}
+.company-social .social-linked-in a{background: #000;}
 .company-social .social-vimeo a{background: #51a6d3;}
 .company-social .social-facebook a:hover{background: #4893ce;}
 .company-social .social-twitter a:hover{background: #82e6ff;}
 .company-social .social-email a:hover{background: #f769a0;}
 .company-social .social-link a:hover{background: #E70522;}
 .company-social .social-deviantart a:hover{background: #adc376;}
-.company-social .social-google a:hover{background: #333;}
+.company-social .social-linked-in a:hover{background: #333;}
 .company-social .social-vimeo a:hover{background: #71c6f3;}
 
 
@@ -530,37 +530,37 @@ Parallax
 ============================= */
 
 #parallax1{
-	background-image: url(../img/parallax/1.jpg);
+    background-image: url(../img/parallax/1.jpg);
 }
 
 #parallax1:after {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: -1;
 }
 
 
 #parallax2{
-	background-image: url(../img/parallax/2.jpg);
+    background-image: url(../img/parallax/2.jpg);
 
 }
 
 #parallax2:after  {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: -1;
 }
 
 
@@ -569,7 +569,7 @@ Parallax
 ============================ */
 
 .btn {
-	border-radius: 0;
+    border-radius: 0;
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 400;
@@ -678,7 +678,7 @@ Parallax
 }
 
 #map {
-	height: 500px;
+    height: 500px;
 }
 
 
@@ -762,13 +762,13 @@ Parallax
 
 @media (max-width:768px) {
 
-	.team.boxed-grey {
-		margin-bottom: 30px;
-	}
+    .team.boxed-grey {
+        margin-bottom: 30px;
+    }
 
-	.boxed-grey {
-		margin-bottom: 30px;
-	}
+    .boxed-grey {
+        margin-bottom: 30px;
+    }
 
     #intro.intro {
         padding:13% 0 6% 0;
@@ -782,6 +782,10 @@ Parallax
         padding-bottom: 0px;
     }
 
+    .intro .page-scroll {
+        visibility: hidden;
+    }
+
     .page-scroll-wrapper {
         visibility: visible !important;
     }
@@ -789,26 +793,29 @@ Parallax
 
 @media (max-width:480px) {
 
-	.navbar-custom .nav.navbar-nav {
+    .navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
-	}
+    }
 
-	.navbar.navbar-custom.navbar-fixed-top {
-		margin-bottom: 30px;
-	}
+    .navbar.navbar-custom.navbar-fixed-top {
+        margin-bottom: 30px;
+    }
 
-	.tp-banner-container {
-		padding-top:40px;
-	}
+    .tp-banner-container {
+        padding-top:40px;
+    }
 
-	.page-scroll a.btn-circle {
-		width: 40px;
-		height: 40px;
-		margin-top: 10px;
-		padding: 7px 0;
-		border: 2px solid #fff;
-		border-radius: 50%;
-		font-size: 20px;
-	}
+    .page-scroll a.btn-circle {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        padding: 7px 0;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        font-size: 20px;
+    }
 
+    #intro.intro {
+        padding:25% 0 6% 0;
+    }
 }
