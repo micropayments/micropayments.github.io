@@ -191,18 +191,18 @@
 
 Micropayments cause friction on two fronts, consumers and producers. For consumers, there is a psychological hurdle associated with online payments  - digital purchasing is already challenging for many, and the frequency of micropayments can worsen the obstacle. For producers, the fees inherent to online payments are tolerable only in a system where they’re significantly outweighed by profits; micropayments limit the potential profit of an online transaction because of the inherent cost of doing business online.
 
-The existent commercial solutions aim to address these solutions in very different ways. Three main schools of thought have been applied to this conundrum: pay-as-you-go, prepaid systems, and billing aggregation. These systems are not mutually exclusive, and examples will be provided for the implementation of each.</p>
+The existent commercial solutions aim to address these solutions in very different ways. <a href="https://www.cs.auckland.ac.nz/~john-g/papers/icii2001.pdf" style="display: inline">Three main schools of thought have been applied</a> to this conundrum: pay-as-you-go, prepaid systems, and billing aggregation. These systems are not mutually exclusive, and examples will be provided for the implementation of each.</p>
 			
 		  <br/>
           <h3><b>Pay-As-You-Go</h3></b>
 
           <hr/>
 
-          <p>Pay-As-You-Go systems do exactly what they say on the tin. Consumers navigate the web and pay for content immediately on individual items. This system is how consumers usually conceptualize micropayments, but is a bit of a rarity in actual implementation.
+          <p>Pay-As-You-Go systems do exactly what they say on the tin. Consumers navigate the web and <a href="http://people.csail.mit.edu/rivest/RivestShamir-mpay.pdf" style="display: inline">pay for content immediately</a> on individual items. This system is how consumers usually conceptualize micropayments, but is a bit of a rarity in actual implementation.
 
 For customers, the main benefit is the intuitive nature of charges. For this reason, pay-as-you-go systems are psychologically easy to conceptualize and adopt.
 
-For the same reasons, pay-as-you-go systems are almost impossible for producers to implement. The high number of transactions lead to a high number of transaction fees, ensuring that a higher ratio of each purchase pays for the facilitation of that purchase. Obviously this results in less money for the producers, higher costs for the consumer, and nearly defeats the point of micropayments.
+For the same reasons, pay-as-you-go systems are almost impossible for producers to implement. <a href="https://pdfs.semanticscholar.org/3194/72b7ed5f9e7e3a12ed2a7b56f38a66621390.pdf" style="display: inline">The high number of transactions lead to a high number of transaction fees</a>, ensuring that a higher ratio of each purchase pays for the facilitation of that purchase. Obviously this results in less money for the producers, higher costs for the consumer, and nearly defeats the point of micropayments.
 
 Pay-as-you-go systems have seen widespread adoption for platforms such as iTunes, Android Pay, and an uncountable number of video games. The problem of transaction fees manifest as higher costs for consumers - the minimum cost for consumers usually hovers around 99 cents.</p>
 
@@ -228,7 +228,7 @@ Pay-as-you-go systems have seen widespread adoption for platforms such as iTunes
 
 In a prepay system, consumers convert a set amount of their funds into digital currency that can be spent at the consumer’s discretion. This conversion can occur online, or by purchasing gift cards at physical stores. The digital currencies are almost always bound to a specific vendor.
 
-By doing the transaction up-front, vendors minimize the number of transactions and ensure that payment has been received for the goods and services rendered. Consumers often don’t realize that they’ve paid into a system of micropayments, and feel comfortable making these types of transactions.
+<a href="https://pdfs.semanticscholar.org/7d2c/48c5c5f19cf11e9b2faf4d00c4a02996eda2.pdf" style="display: inline">By doing the transaction up-front, vendors minimize the number of transactions</a> and ensure that payment has been received for the goods and services rendered. Consumers often don’t realize that they’ve paid into a system of micropayments, and feel comfortable making these types of transactions.
 
 Prepay systems can easily be abused by vendors, however. For example, let’s say that a consumer purchases 2,000 gems from a company.  That company then prices their product at 300 gems per transaction, ensuring that the consumer will have remaining funds when they’ve spent as much as possible with their first transaction. Additionally, if 2,000 gems cost $5, producers can charge $10 for 5,000 gems, providing more value for more money with nonlinear pricing. These practices subtly increase the customer’s chances to buy more  of the digital currency, but often result in fatigue for the consumers who see through the schemes.</p>
 
@@ -253,7 +253,7 @@ Prepay systems can easily be abused by vendors, however. For example, let’s sa
 
           <hr/>
 
-          <p>Payment aggregation systems often track purchases over multiple platforms to combine things into one lump-sum payment. From the consumer’s perspective, they go from site to site, spending small amounts to access the content from each producer. If they read four articles from The Atlantic and watch three videos by Vox, they’ll be charged for the seven products at the end of the week.
+          <p><a href="https://pdfs.semanticscholar.org/7d2c/48c5c5f19cf11e9b2faf4d00c4a02996eda2.pdf" style="display: inline">Payment aggregation systems often track purchases over multiple platforms</a> to combine things into one lump-sum payment. From the consumer’s perspective, they go from site to site, spending small amounts to access the content from each producer. If they read four articles from The Atlantic and watch three videos by Vox, they’ll be charged for the seven products at the end of the week.
 
 Although not mutually inclusive to payment aggregation, there is a greater emphasis on networking transactions between companies. This almost always requires a third party to collect purchase histories from companies so that one fee can be applied to a consumer at the end of a payment period. This is often known as postpay, but that name implies a mutual exclusivity with prepay systems that doesn’t exist.</p>
 
@@ -282,7 +282,7 @@ Although not mutually inclusive to payment aggregation, there is a greater empha
 		  <br/>
           <p><b>PayPal</p></b>
 
-          <p>PayPal exemplifies payment aggregation and pay-as-you-go systems. Users will deposit currency at a 1:1 ratio into their PayPal wallet, and purchase funds from almost any kind of online vendor with these funds. The transaction between PayPal and vendors often allows for a greater degree of trust, allowing for singular transactions consisting of many users’ payments between the two companies.
+          <p><a href="https://www.paypal.com/uk/webapps/mpp/micropayments" style="display: inline">PayPal exemplifies payment aggregation and pay-as-you-go systems.</a> Users will deposit currency at a 1:1 ratio into their PayPal wallet, and purchase funds from almost any kind of online vendor with these funds. The transaction between PayPal and vendors often allows for a greater degree of trust, allowing for singular transactions consisting of many users’ payments between the two companies.
 
 Additionally, the deposit of funds into a PayPal wallet can happen at the time of purchase, resulting in a system indistinguishable from pay-as-you-go.</p>
 
